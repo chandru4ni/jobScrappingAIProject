@@ -12,7 +12,7 @@ extracting and storing the information in csv. Additional cleaning will be done 
 data processing for the implementation of the classification model.
 
 2) finalcutmodel.py - This python file does the data-processing and implementation of 
-classification model. A neural network is used to perform the classification. Tensorflow and Keras
+classification model. A neural network (MLP model) is used to perform the classification. Tensorflow and Keras
 frameworks and scikit-learn library are used for implementation.
 
 The classification metrics - recall, precision, F1 Score are stored in ClassificationReport.csv
