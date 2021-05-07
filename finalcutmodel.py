@@ -29,6 +29,9 @@ def encode_workarea():
 
     y = jobWorkAreaArray[:, 1]
 
+    # The job listting has too many job areas but very few listings. These listings 
+    # will not be sufficient for training, hence all such listings hvae been put 
+    # under a commmon job category "SAP"
     for i in range(len(y)):
         if y[i] == 9 or y[i] == 16 or y[i] == 18 \
             or y[i] == 1 or y[i] == 3 or y[i] == 5 \
